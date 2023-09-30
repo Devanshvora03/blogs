@@ -128,24 +128,25 @@
 .ligth-mode-container1 {
   gap: 260px;
   width: 1216px;
-  display: flex;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-color: rgba(0, 0, 0, 0.3400000035762787);
+   display: flex;
+  align-items: flex-start; 
+   flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 0.3400000035762787); 
   border-style: solid;
   border-width: 1px 0;
 }
 .ligth-mode-text010 {
   color: rgba(255, 0, 0, 1);
   height: auto;
-  font-size: 243.8000030517578px;
+  font-size: 200px;
   font-style: Bold;
-  text-align: left;
+  text-align: center;
   font-family: Inter;
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+  margin-left: 80px;
 }
 .ligth-mode-blog1 {
   width: 1440px;
