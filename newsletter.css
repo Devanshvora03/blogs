@@ -208,7 +208,7 @@ body{
     align-items: flex-start;
     flex-direction: column;
   }
-  .newsletter-input {
+  /* .newsletter-input {
     gap: 8px;
     display: flex;
     padding: 12px 14px 12px 16px;
@@ -222,6 +222,11 @@ body{
     border-width: 1px;
     border-radius: 8px;
     background-color: var(--dl-color-default-white);
+  } */
+  .newsletter-email {
+    width: 240px;
+    height: 34px;
+    border-radius: 5px;
   }
   .newsletter-content1 {
     gap: 8px;
@@ -234,11 +239,8 @@ body{
     height: auto;
     flex-grow: 1;
     text-align: left;
-    line-height: 8px;
-    height: 9px;
-  }
-  .newsletter-text18::placeholder{
-    color: black;
+    line-height: 12px;
+    height: 12px;
   }
   .newsletter-text20 {
     color: rgba(192, 197, 208, 1);
@@ -256,11 +258,11 @@ body{
   .newsletter-text21 {
     text-decoration: NONE;
   }
-  /* .newsletter-button {
+  .newsletter-button {
     display: flex;
     align-items: flex-start;
     border-radius: 8px;
-  } */
+  }
   .newsletter-frame-buttonbase {
     gap: 8px;
     display: flex;
@@ -299,7 +301,6 @@ body{
     gap: 30px;
     width: 1280px;
     display: flex;
-   
     padding: 0 32px;
     align-items: flex-start;
     flex-shrink: 0;
@@ -307,12 +308,12 @@ body{
   }
   .newsletter-headingandcontent {
     gap: 32px;
-    font-size: 16px;
     width: 1216px;
     display: flex;
     align-items: flex-start;
     flex-shrink: 0;
     flex-direction: column;
+    font-size: 18px;
   }
   .newsletter-text25 {
     color: #ff0000;
@@ -335,6 +336,7 @@ body{
     align-items: flex-start;
     flex-shrink: 0;
     justify-content: center;
+    font-size: 18px;
   }
   .newsletter-blogpostcard {
     gap: 32px;
@@ -357,7 +359,6 @@ body{
   .newsletter-content3 {
     gap: 24px;
     display: flex;
-
     align-self: stretch;
     align-items: flex-start;
     flex-direction: column;
